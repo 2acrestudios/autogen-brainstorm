@@ -2,7 +2,7 @@
 ---
 <img src="https://2acrestudios.com/wp-content/uploads/2024/05/autogen-brainstorm.png" align="right" style="width: 300px;" />
 We used the AutoGen framework to create a script that runs both a single agent and group chat for brainstorming. You can drop in and out of 'brainstorm' mode by typing it at the prompt. Or you can just hang out in single-agent mode with the primary assistant. All the agents in the group chat can use a different local LLM. Combining a good agent prompt and an LLM that aligns with its purpose will yield very good results. This is a simple implementation offering us a foundational way to explore that dynamic within an agentic environment. The agents all have persistent memory. and are aware of each other with the group chat workflow.
-
+<br /><br />
 We also have these same agents in an instance of AI Town. It's interesting to see how the agent prompts maintain a certain amount of integrity across the different platforms.
 <img src="https://2acrestudios.com/wp-content/uploads/2024/05/Screenshot-2024-04-30-at-2.12.57 PM-2.png" />
 ## Overview
