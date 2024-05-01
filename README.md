@@ -56,19 +56,7 @@ Sets up the initial configuration for the `CustomConversableAgent` and handles t
 3. Attach a `Teachability` instance for enhanced functionality.
 4. Initiate the user-agent interaction, supporting commands for toggling brainstorm mode and standard chatting.
 
-## Usage Examples
-
-```python
-# Create a CustomConversableAgent
-agent = CustomConversableAgent("Lou the Assistant", llm_config, "Agent identity prompts")
-
-# Enable brainstorm mode
-agent.toggle_brain_storm_mode()
-
-# Send a message
-response = agent.handle_request("Hello, let's brainstorm!")
-print(response)
-```
+## Agent Example
 
 ```python
             fin_agent = self._create_brainstorm_agent(
