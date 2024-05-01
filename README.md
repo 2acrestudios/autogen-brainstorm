@@ -8,7 +8,7 @@ We also have these same agents in an instance of AI Town. It's interesting to se
 ## Overview
 
 This Python module defines a class `CustomConversableAgent` that extends the capabilities of a basic conversational agent to include features like caching, mode toggling for brainstorming, and the creation of multiple specialized agents for a brainstorming session. The system is designed to support collaborative brainstorming in a group chat environment with distinct roles for each agent, enhancing creativity and productivity.
-<img src="https://2acrestudios.com/wp-content/uploads/2024/05/Screenshot-2024-04-30-at-2.12.57 PM-2.png" align="right" />
+<img src="https://2acrestudios.com/wp-content/uploads/2024/05/Screenshot-2024-04-30-at-2.12.57 PM-2.png" />
 ## Classes and Functions
 
 ### CustomConversableAgent
