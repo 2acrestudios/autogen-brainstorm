@@ -1,4 +1,5 @@
-<img src="https://2acrestudios.com/wp-content/uploads/2024/05/autogen-brainstorm.png" align="right" style="width: 300px;" /># AutoGen Brainstorm
+# AutoGen Brainstorm
+<img src="https://2acrestudios.com/wp-content/uploads/2024/05/autogen-brainstorm.png" align="right" style="width: 300px;" />
 We used the AutoGen framework to create script that runs both a single agent and group chat for brainstorming. You can drop in and out of 'brainstorm' mode by typing it at the prompt. Or you can just hang out in single agent mode with the primary assistant. All the agents in the group chat can use a different local LLM. By combining a good agent prompt and an LLM that aligns with it's purpose will yield very good results. This is a simple implementation offering us a foundational way to explore that dynamicwithin an agentic environment. We also have these same agents in an instance of AI Town. It's interesting to see how the agent prompts maintain a certain amount of integrity across the different platforms.
 
 The provided Python code outlines a complex system for handling conversational agents capable of brainstorming and toggling modes for cache management and brainstorming. Below is a comprehensive documentation of the code.
