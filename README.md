@@ -7,6 +7,13 @@ We used the AutoGen framework to create a script that runs a single-agent and gr
 <br />
 We also have these same agents in an instance of AI Town. It's interesting to see how the agent prompts maintain a certain amount of integrity across the different platforms.
 
+## Technology Used
+
+<ul>
+<li><a href="https://github.com/microsoft/autogen" target="_blank">Microsoft AutoGen</a></li>
+<li><a href="https://github.com/ollama/ollama" target="_blank">Ollama Server</a></li>
+</ul>
+
 ## Overview
 
 This Python module defines a class `CustomConversableAgent` that extends the capabilities of a basic conversational agent to include features like caching, mode toggling for brainstorming, and the creation of multiple specialized agents for a brainstorming session. The system is designed to support collaborative brainstorming in a group chat environment with distinct roles for each agent, enhancing creativity and productivity.
