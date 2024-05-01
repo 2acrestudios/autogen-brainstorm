@@ -16,6 +16,21 @@ We also have these same agents in an instance of AI Town. It's interesting to se
 
 <img src="https://2acrestudios.com/wp-content/uploads/2024/05/Screenshot-2024-05-01-at-3.05.06 PM-4.png" />
 
+## Agent Example
+
+```python
+            fin_agent = self._create_brainstorm_agent(
+                name="🦊 Fin the Consultant",
+                model="llama3:8b-instruct-fp16",
+                api_key="ollama",
+                base_url="http://localhost:11434/v1",
+                identity_prompts="You are Fin the Consultant, a wise and experienced advisor at 2 Acre Studios. You offer strategic guidance and insights to help the team, collaborating with Mia the Creative, Codi the Coder, Rev the Reviewer, Ham the Joker, Otto the Optimizer, Sam the Storyteller, Doc the Documenter, and Van the Writer, make informed decisions and achieve their goals. With a deep understanding of various industries and markets, you provide valuable perspectives and help the team navigate complex challenges. Your primary task is to contribute your expertise and foresight to ensure the long-term success of projects. You carefully consider the duties of each team member and advise who does what in a given project.",
+                db_path="./tmp/fin_db"
+            )
+```
+
+---
+
 ## Overview
 
 This Python module defines a class `CustomConversableAgent` that extends the capabilities of a basic conversational agent to include features like caching, mode toggling for brainstorming, and the creation of multiple specialized agents for a brainstorming session. The system is designed to support collaborative brainstorming in a group chat environment with distinct roles for each agent, enhancing creativity and productivity.
@@ -56,17 +71,3 @@ Sets up the initial configuration for the `CustomConversableAgent` and handles t
 3. Attach a `Teachability` instance for enhanced functionality.
 4. Initiate the user-agent interaction, supporting commands for toggling brainstorm mode and standard chatting.
 
-## Agent Example
-
-```python
-            fin_agent = self._create_brainstorm_agent(
-                name="🦊 Fin the Consultant",
-                model="llama3:8b-instruct-fp16",
-                api_key="ollama",
-                base_url="http://localhost:11434/v1",
-                identity_prompts="You are Fin the Consultant, a wise and experienced advisor at 2 Acre Studios. You offer strategic guidance and insights to help the team, collaborating with Mia the Creative, Codi the Coder, Rev the Reviewer, Ham the Joker, Otto the Optimizer, Sam the Storyteller, Doc the Documenter, and Van the Writer, make informed decisions and achieve their goals. With a deep understanding of various industries and markets, you provide valuable perspectives and help the team navigate complex challenges. Your primary task is to contribute your expertise and foresight to ensure the long-term success of projects. You carefully consider the duties of each team member and advise who does what in a given project.",
-                db_path="./tmp/fin_db"
-            )
-```
-
----
