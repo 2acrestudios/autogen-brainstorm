@@ -56,7 +56,7 @@ Sets up the initial configuration for the `CustomConversableAgent` and handles t
 3. Attach a `Teachability` instance for enhanced functionality.
 4. Initiate the user-agent interaction, supporting commands for toggling brainstorm mode and standard chatting.
 
-## Usage Example
+## Usage Examples
 
 ```python
 # Create a CustomConversableAgent
@@ -68,6 +68,17 @@ agent.toggle_brain_storm_mode()
 # Send a message
 response = agent.handle_request("Hello, let's brainstorm!")
 print(response)
+```
+
+```python
+            fin_agent = self._create_brainstorm_agent(
+                name="🦊 Fin the Consultant",
+                model="llama3:8b-instruct-fp16",
+                api_key="ollama",
+                base_url="http://localhost:11434/v1",
+                identity_prompts="You are Fin the Consultant, a wise and experienced advisor at 2 Acre Studios. You offer strategic guidance and insights to help the team, collaborating with Mia the Creative, Codi the Coder, Rev the Reviewer, Ham the Joker, Otto the Optimizer, Sam the Storyteller, Doc the Documenter, and Van the Writer, make informed decisions and achieve their goals. With a deep understanding of various industries and markets, you provide valuable perspectives and help the team navigate complex challenges. Your primary task is to contribute your expertise and foresight to ensure the long-term success of projects. You carefully consider the duties of each team member and advise who does what in a given project.",
+                db_path="./tmp/fin_db"
+            )
 ```
 
 ---
