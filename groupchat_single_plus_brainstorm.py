@@ -144,7 +144,12 @@ class CustomConversableAgent(ConversableAgent):
 
 def display_ascii_art():
     print("""
-Work with your crew in group chat by typing 'brainstorm' or just hit the 'enter' key to talk to Lou the Assistant.
+░█▀█░█░█░▀█▀░█▀█░█▀▀░█▀▀░█▀█░░░█▀▄░█▀▄░█▀█░▀█▀░█▀█░█▀▀░▀█▀░█▀█░█▀▄░█▄█
+░█▀█░█░█░░█░░█░█░█░█░█▀▀░█░█░░░█▀▄░█▀▄░█▀█░░█░░█░█░▀▀█░░█░░█░█░█▀▄░█░█
+░▀░▀░▀▀▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░▀▀░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░░▀▀▀░▀░▀░▀░▀
+
+Work with your crew in group chat by typing 'brainstorm'! 
+...or just hit the 'enter' key to have a one-on-one with Lou.
 """)
 
 if __name__ == "__main__":
