@@ -1,7 +1,7 @@
 # AutoGen Brainstorm
 ---
 <img src="https://2acrestudios.com/wp-content/uploads/2024/05/autogen-brainstorm.png" align="right" style="width: 300px;" />
-We used the AutoGen framework to create a script that runs both a single agent and group chat for brainstorming. You can drop in and out of 'brainstorm' mode by typing it at the prompt. Or you can just hang out in single-agent mode with the primary assistant. All the agents in the group chat can use a different local LLM. Combining a good agent prompt and an LLM that aligns with its purpose will yield very good results. This is a simple implementation offering us a foundational way to explore that dynamic within an agentic environment. The agents all have persistent memory. and are aware of each other with the group chat workflow.
+We used the AutoGen framework to create a script that runs a single-agent and group chat for brainstorming. You can drop in and out of 'brainstorm' mode by typing it at the prompt. Or you can just hang out in single-agent mode with the primary assistant. All the agents in the group chat can use a different local LLM. Combining a good agent prompt and an LLM that aligns with its purpose will yield very good results. This is a simple implementation offering us a foundational way to explore that dynamic within an agentic environment. The agents all have persistent memory and are aware of each other within the group chat workflow. This system is built to support complex, interactive scenarios with multiple agents, making it suitable for environments where creative and dynamic interaction is required, such as creative studios or innovation workshops.
 <br /><br />
 We also have these same agents in an instance of AI Town. It's interesting to see how the agent prompts maintain a certain amount of integrity across the different platforms.
 
@@ -35,12 +35,10 @@ This class extends `ConversableAgent` to include advanced features such as cachi
 
 ### display_ascii_art
 
-**Description**:  
 Prints ASCII art to the console to provide a welcoming or instructive message.
 
 ### main block
 
-**Description**:  
 Sets up the initial configuration for the `CustomConversableAgent` and handles the user interaction loop, managing input in brainstorm and normal modes.
 
 **Usage**:
@@ -62,7 +60,5 @@ agent.toggle_brain_storm_mode()
 response = agent.handle_request("Hello, let's brainstorm!")
 print(response)
 ```
-
-This system is built to support complex, interactive scenarios with multiple agents, making it suitable for environments where creative and dynamic interaction is required, such as creative studios or innovation workshops.
 
 ---
