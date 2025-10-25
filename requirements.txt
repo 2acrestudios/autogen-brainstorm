@@ -1,0 +1,12 @@
+# Claude Agent SDK Integration
+claude-agent-sdk>=0.1.4
+
+# Core dependencies
+anthropic>=0.40.0
+
+# Optional: For enhanced functionality
+python-dotenv>=1.0.0
+
+# Original AutoGen dependencies (for reference/compatibility)
+# Uncomment if you want to keep both versions available
+# pyautogen>=0.2.0
